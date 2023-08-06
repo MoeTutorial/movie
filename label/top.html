@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>影视排行榜 - 喵喵影院 - 最全最好的影视平台</title>
+	<meta name="keywords" content="影视,音乐,视频分享,免费视频,在线视频,预告片" />
+	<meta name="description" content="提供最新最快的视频分享数据" />
+	<meta name="referrer" content="always"> 
+<meta name="referrer" content="no-referrer" /><script>var maccms={"path":"","mid":"","url":"","wapurl":"","mob_status":"0"};</script>
+<link rel="icon" href="/template/mxone/mxstatic/picture/logo.png" type="image/png" />
+<link href="/template/mxone/mxstatic/css/style.css" rel="stylesheet" type="text/css">
+<link href="/template/mxone/mxstatic/css/aliicon.css" rel="stylesheet" type="text/css">
+<link href="/template/mxone/mxstatic/css/index.css" rel="stylesheet" type="text/css">
+<link disabled="" class="theme_black" type="text/css" rel="stylesheet" href="/template/mxone/mxstatic/css/mxhtmlblack.css"><script src="/template/mxone/mxstatic/js/jquery.js"></script>
+<script type="text/javascript"  src="/template/mxone/mxstatic/js/jquery.lazyload.js"></script>
+<script src="/template/mxone/mxstatic/js/jquery.autocomplete.js"></script>
+<script src="/template/mxone/mxstatic/js/vue.min.js"></script>
+<script src="/template/mxone/mxstatic/js/index.js"></script>
+<script src="/template/mxone/mxstatic/js/jquery.cookie.js"></script>
+<script src="/template/mxone/mxstatic/js/home.js"></script>
+<script type="text/javascript"  src="/template/mxone/mxstatic/js/jquery.clipboard.js"></script>
+<script src="/template/mxone/mxstatic/js/layer.js"></script>
+<script src="/template/mxone/mxstatic/js/js_push.js"></script>
+ <script type="text/javascript" src="/template/mxone/mxstatic/js/swiper.min.js"></script>
+<script src="/template/mxone/mxstatic/js/script.js"></script>
+<script>
+	var clothes = $.cookie('clothes');
+	if (clothes) {
+		if (clothes == 'white') {
+			$('.theme_black').removeAttr('disabled');
+		} else {
+			$('.theme_black').attr('disabled', '');
+		}
+	} else {
+		$.cookie('clothes', 'black', { expires: 365, path: '/' })
+	}
+</script>
+<script>
+
+	function clothesChange(){
+		var clothes = $.cookie('clothes');
+		if (clothes == 'black') {
+			$.cookie('clothes','white', {expires: 365, path: '/'});  
+			$('.theme_black').each(function(){
+			    $(this).removeAttr('disabled');
+			});
+			
+		} else {
+			$.cookie('clothes','black', {expires: 365, path: '/'});  
+			$('.theme_black').each(function(){
+			    $(this).attr('disabled', '');
+			});
+		}
+		clothes = $.cookie('clothes');
+	}
+</script>
+
+<body class="article page">
+    <header id="header" class="wrapper" >
+	<div class="header-content  ">
+		<div class="content">
+			<div class="brand">
+				<a href="/" class="logo" title="喵喵影院 - 最全最好的影视平台"><img src="/template/mxone/mxstatic/picture/logo.png" alt="喵喵影院 - 最全最好的影视平台"></a>
+			</div>
+
+			<div class="nav-search">
+				<form action="/index.php/vod/search.html" class="search-dh">
+				    					<div class="search-box"><input class="search-input ac_wd txtKeywords" type="text" name="wd" autocomplete="off" placeholder="搜索电影、电视剧、综艺、动漫">
+						<div class="search-drop">
+							<div class="drop-content-items ac_hot none">
+								<div class="list-item list-item-title"><strong>大家都在搜这些影片</strong></div>
+								<div class="search-tag">
+																		<a href="/index.php/vod/search/wd/%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A.html" class="hot "><i class="icon-hot"></i>变形金刚</a>
+																		<a href="/index.php/vod/search/wd/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85.html" class="hot "><i class="icon-hot"></i>火影忍者</a>
+																		<a href="/index.php/vod/search/wd/%E5%A4%8D%E4%BB%87%E8%80%85%E8%81%94%E7%9B%9F.html" class="hot "><i class="icon-hot"></i>复仇者联盟</a>
+																		<a href="/index.php/vod/search/wd/%E6%88%98%E7%8B%BC.html" class="hot "><i class="icon-hot"></i>战狼</a>
+																		<a href="/index.php/vod/search/wd/%E7%BA%A2%E6%B5%B7%E8%A1%8C%E5%8A%A8.html" class=""><i class="icon-hot"></i>红海行动</a>
+																	</div>
+							</div>
+						</div>
+					     <a href="/index.php/label/top.html" class="search-btn search-cupfox" id="search-cupfox" title="喵喵影院 - 最全最好的影视平台排行榜" ><i class="iconfont icon-paihangbang1 phb phb phb"></i></a>						<button class="search-btn search-go" type="submit"><i class="icon-search"></i></button>
+						<button class="cancel-btn" type="button">取消</button>
+					</div>
+									</form>
+			</div>
+
+			<div class="nav">
+				<ul class="nav-menu-items">
+					<li class="nav-menu-item ">
+						<a href="/" title="喵喵影院 - 最全最好的影视平台首页">
+						 <span class="nav-menu-item-name">首页</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/1.html" title="电影">
+						     
+						    <span class="nav-menu-item-name">电影</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/2.html" title="连续剧">
+						     
+						    <span class="nav-menu-item-name">连续剧</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/3.html" title="综艺">
+						     
+						    <span class="nav-menu-item-name">综艺</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/4.html" title="动漫">
+						     
+						    <span class="nav-menu-item-name">动漫</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/art/type/id/5.html" title="资讯">
+						     
+						    <span class="nav-menu-item-name">资讯</span></a>
+					</li>
+									<li class="nav-menu-item ">
+					<a href="/index.php/label/live.html" title="喵喵影院 - 最全最好的影视平台直播" >
+					<span class="nav-menu-item-name">短视频</span>
+					 </a>
+				</li>
+						
+					<li class="nav-menu-item  domain plus">
+						<a href="javascript:;" title="喵喵影院 - 最全最好的影视平台最新域名">
+						   
+						    <span class="nav-menu-item-name">网址</span><em>+</em></a>
+					</li>
+					 					 
+				</ul>
+			</div>
+				 			<div class="header-module">
+				<ul class="nav-menu-items">
+				     					<li class="nav-menu-item drop"><span class="nav-menu-icon"><i class="icon-all"></i></span>
+						<div class="drop-content sub-block">
+							<div class="drop-content-box grid-box">
+								<ul class="drop-content-items grid-items">
+									<li class="grid-item">
+										<a href="/"><i class="icon-home"></i>
+											<div class="grid-item-name" title="喵喵影院 - 最全最好的影视平台首页">首页</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/1.html" title="电影">
+																						<i class="icon-cate-dy"></i> 											<div class="grid-item-name">电影</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/2.html" title="连续剧">
+																						<i class="icon-cate-ds"></i> 											<div class="grid-item-name">连续剧</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/3.html" title="综艺">
+																						<i class="icon-cate-zy"></i> 											<div class="grid-item-name">综艺</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/4.html" title="动漫">
+																						<i class="icon-cate-dm"></i> 											<div class="grid-item-name">动漫</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/art/type/id/5.html" title="资讯">
+																						<i class="iconfont icon-zixun2"></i> 											<div class="grid-item-name">资讯</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/label/web.html"><i class="icon-domain"></i>
+											<div class="grid-item-name" title="网址">网址</div>
+										</a>
+									</li>
+																		<li class="grid-item grid-more">
+										<a class="grid-more-link" href="/index.php/vod/show/id/1.html" title="查看全部影片">
+											<div class="grid-item-name">全部影片</div>
+										</a>
+									</li>
+																	</ul>
+							</div>
+						</div>
+						<div class="shortcuts-mobile-overlay"></div>
+					</li>
+										
+					<li class="nav-menu-item nav-menu-search"><i class="icon-search"></i></li>
+					<li class="space-line-bold"></li>
+					<li class="nav-menu-item drop"><span class="nav-menu-icon"><i class="icon-watch-history"></i></span>
+						<div class="drop-content drop-history">
+							<div class="drop-content-box">
+								<ul class="drop-content-items" id="history">
+									<li class="list-item list-item-title">
+										<a href="" class="playlist historyclean"><i class="icon-clear"></i></a>
+										<strong>我的观影记录</strong></li>
+								</ul>
+							</div>
+						</div>
+						<div class="shortcuts-mobile-overlay"></div>
+					</li>
+										<li class="space-line-bold"></li>
+					
+				<li class="nav-menu-item drop wapblock">
+				    <span class="mac_user_center" title="会员中心" ><i class="iconfont icon-yonghu-fuben"></i></span>
+				    <!--a class="mac_user" href="javascript:;" title="会员中心"><i class="iconfont icon-yonghu-fuben"></i></a-->
+ 
+				    <div class="drop-content drop-user">
+						<div class="drop-content-box">
+							<ul class="drop-content-items" id="drop-user">
+								<li class="list-item list-item-title">	
+									<div class="text-content">登录后可享受</div></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>尊享极清观影体验</span></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>同步多端播放记录</span></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>热播精彩及时追</span></li>
+	<li class="list-item button-area"><button class="mac_user" href="javascript:;" >立即登录</button></li></ul></div></div>	
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script>
+		 $(".nav-menu-search").click(function () {
+             $(".nav-search").addClass("block");
+         });
+                
+	$(document).scroll(function() {
+		var H = $(document).scrollTop();
+		if(H > 20) {
+		  $(".header-content").addClass("header-bg");
+		} else {
+		  $(".header-content").removeClass("header-bg");
+		}
+		if(H > 80) {
+          $(".header-content").addClass("header-bg");
+         $(".search-dh").append($(".search-box"));
+           $(".nav-menu-search").click(function () {
+             $(".nav-search").addClass("block");
+         });
+		} else {
+         $(".header-content").removeClass("header-bg");
+
+          $(".search-main").append($(".search-box"));
+         
+		}
+	});
+</script>
+ 
+  
+   <style>
+.title-top{   background-image: url(/template/mxone/mxstatic/image/topbg.png);
+    height: 200px;
+    background-size: auto 240px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    width: 100%;}
+.title-top span {        display: block;
+        padding-top: 5%;
+        text-align: center;
+        z-index: 5;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        width: 100%;
+        color: #fff;font-size: 30px;}
+   </style>
+ <main id="main" class="wrapper bgys" >
+     <div class="content">
+         
+  <div class="title-top" ><span>排行榜</span></div>       		
+	 <div class="list">
+ 
+		<div class="module-tab">
+			<input type="hidden" name="tab" id="tab" class="module-tab-input">
+			<label class="module-tab-name">
+			    <span class="module-tab-value">全部</span><i class="icon-arrow-bottom"></i></label>
+			<div class="module-tab-items">
+				<div class="module-tab-title">选择类型<span class="close-drop"><i class="icon-close-o"></i></span></div>
+				<div>
+				    <span class="module-tab-item tab-item selected" data-dropdown-value="总榜">总榜</span>
+					<span class="module-tab-item tab-item" data-dropdown-value="月榜">月榜</span>
+					<span class="module-tab-item tab-item" data-dropdown-value="周榜">周榜</span>
+										<span class="module-tab-item tab-item" data-dropdown-value="推荐榜">推荐榜</span>
+										
+				</div>
+			</div>
+		</div>	     
+	     
+	     
+	     
+
+  
+  
+<div class="tab-list  selected" dataname="总榜">
+    	<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-dy"></i>
+       			<span>电影热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/238.html" title="鬼娃新娘" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">鬼娃新娘</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/558.html" title="玩命快递2" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">玩命快递2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/310.html" title="追击" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">追击</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/205.html" title="我们都是大人" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">我们都是大人</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/516.html" title="银河护卫队：圣诞特别篇" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">银河护卫队：圣诞特别篇</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/541.html" title="V字猎杀令" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">V字猎杀令</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/263.html" title="离过一次婚的2人未定的关系" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">离过一次婚的2人未定的关系</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/285.html" title="银魂2" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">银魂2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/544.html" title="魔女嘉莉2013" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">魔女嘉莉2013</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/314.html" title="暴力街区13：终极" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">暴力街区13：终极</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-ds"></i>
+         			<span>连续剧热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/128.html" title="代理公司" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">代理公司</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/179.html" title="情满九道弯" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">情满九道弯</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/110.html" title="黑帮之境第一季" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">黑帮之境第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/68.html" title="无可奈何我们的恋爱论" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">无可奈何我们的恋爱论</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/176.html" title="下一站你的世界" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">下一站你的世界</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/170.html" title="听说你喜欢我" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">听说你喜欢我</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/135.html" title="僵尸侦探" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">僵尸侦探</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/62.html" title="你想沦陷于我" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">你想沦陷于我</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/130.html" title="会成为别人吗" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">会成为别人吗</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/80.html" title="禁断的果实" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">禁断的果实</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-zy"></i>
+          			<span>综艺热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/372.html" title="超级夜总会" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">超级夜总会</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/398.html" title="比弗利娇妻第十二季" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">比弗利娇妻第十二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/337.html" title="你好星期六" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">你好星期六</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/366.html" title="娱乐百分百" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">娱乐百分百</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/433.html" title="寻宝游戏" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">寻宝游戏</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/417.html" title="惊人的星期六" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">惊人的星期六</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/420.html" title="RunningMan" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">RunningMan</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/397.html" title="极速前进第三十四季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">极速前进第三十四季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/370.html" title="WOW桃姐" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">WOW桃姐</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/360.html" title="我就问你正常吗?" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">我就问你正常吗?</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-dm"></i>
+          			<span>动漫热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/482.html" title="舰队Collection总有一天在那片海" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">舰队Collection总有一天在那片海</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/2.html" title="名侦探柯南国语版" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">名侦探柯南国语版</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/6.html" title="蓝色监狱" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">蓝色监狱</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/3.html" title="光之美少女美味派对" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">光之美少女美味派对</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/465.html" title="我靠吃饭拯救地球动态漫画第一季" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">我靠吃饭拯救地球动态漫画第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/7.html" title="枪神：史丹比特" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">枪神：史丹比特</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/503.html" title="黑莲花攻略手册动态漫画第一季" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">黑莲花攻略手册动态漫画第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/500.html" title="最强仙尊陈北玄动态漫画第二季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">最强仙尊陈北玄动态漫画第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/498.html" title="斗破苍穹年番" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">斗破苍穹年番</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/492.html" title="奥特曼新世代之星" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">奥特曼新世代之星</span>
+		</a>
+			</div>
+	</div> 	
+	
+<div class="tab-list" dataname="月榜">
+    	<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-dy"></i>
+       			<span>电影热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/291.html" title="金鸡2" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">金鸡2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/533.html" title="卧床休养期" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">卧床休养期</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/226.html" title="刽子手2022" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">刽子手2022</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/285.html" title="银魂2" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">银魂2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/559.html" title="空军大电影：只要活着" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">空军大电影：只要活着</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/508.html" title="异星觉醒" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">异星觉醒</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/310.html" title="追击" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">追击</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/201.html" title="杏仁体与海马体" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">杏仁体与海马体</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/515.html" title="神奇四侠2015" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">神奇四侠2015</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/202.html" title="宝贝鲁比" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">宝贝鲁比</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-ds"></i>
+         			<span>连续剧热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/159.html" title="家有仙妻" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">家有仙妻</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/162.html" title="今生也是第一次" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">今生也是第一次</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/105.html" title="明星伙伴第一季" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">明星伙伴第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/161.html" title="彩门令" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">彩门令</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/155.html" title="青青河边草" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">青青河边草</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/115.html" title="米兰达第一季" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">米兰达第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/102.html" title="法律与秩序第二十二季" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">法律与秩序第二十二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/104.html" title="警察世家第十三季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">警察世家第十三季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/122.html" title="我眼中的豆荚" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">我眼中的豆荚</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/142.html" title="决胜的挥拍" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">决胜的挥拍</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-zy"></i>
+          			<span>综艺热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/349.html" title="疯狂的麦咭第一季" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">疯狂的麦咭第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/426.html" title="团结才能踢第二季" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">团结才能踢第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/437.html" title="非你莫属" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">非你莫属</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/414.html" title="地狱厨房(美版)第十七季" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">地狱厨房(美版)第十七季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/375.html" title="我们练爱吧" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">我们练爱吧</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/341.html" title="无限超越班" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">无限超越班</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/365.html" title="综艺大热门" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">综艺大热门</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/433.html" title="寻宝游戏" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">寻宝游戏</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/436.html" title="今天开始做魔王第三季" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">今天开始做魔王第三季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/439.html" title="设计理想家第二季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">设计理想家第二季</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-dm"></i>
+          			<span>动漫热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/500.html" title="最强仙尊陈北玄动态漫画第二季" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">最强仙尊陈北玄动态漫画第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/34.html" title="星灵暗帝动态漫画" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">星灵暗帝动态漫画</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/504.html" title="防御全开" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">防御全开</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/489.html" title="爹地拍档" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">爹地拍档</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/480.html" title="在地下城寻求邂逅是否搞错了什么第四季" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">在地下城寻求邂逅是否搞错了什么第四季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/18.html" title="吸血鬼仆人" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">吸血鬼仆人</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/484.html" title="异世界悠闲农家" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">异世界悠闲农家</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/27.html" title="虚境重构第一季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">虚境重构第一季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/471.html" title="噬神纪动态漫画" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">噬神纪动态漫画</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/473.html" title="妖道至尊动态漫画第四季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">妖道至尊动态漫画第四季</span>
+		</a>
+			</div>
+	</div> 
+
+<div class="tab-list" dataname="周榜">
+    	<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-dy"></i>
+       			<span>电影热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/317.html" title="疯狂的麦克斯3" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">疯狂的麦克斯3</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/226.html" title="刽子手2022" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">刽子手2022</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/201.html" title="杏仁体与海马体" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">杏仁体与海马体</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/314.html" title="暴力街区13：终极" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">暴力街区13：终极</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/567.html" title="特种部队：眼镜蛇的崛起" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">特种部队：眼镜蛇的崛起</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/199.html" title="锅盖头2" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">锅盖头2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/272.html" title="你在我心上" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">你在我心上</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/549.html" title="贞伊" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">贞伊</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/311.html" title="乌鸦1994" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">乌鸦1994</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/184.html" title="无境之兽" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">无境之兽</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	            <i class="icon-cate-ds"></i>
+         			<span>连续剧热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/133.html" title="赌命为王第二季" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">赌命为王第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/157.html" title="池塘怪谈" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">池塘怪谈</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/113.html" title="米兰达第三季" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">米兰达第三季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/162.html" title="今生也是第一次" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">今生也是第一次</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/112.html" title="黑帮之境第二季" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">黑帮之境第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/169.html" title="显微镜下的大明之丝绢案" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">显微镜下的大明之丝绢案</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/325.html" title="闻香识心" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">闻香识心</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/117.html" title="爆笑女警第四季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">爆笑女警第四季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/69.html" title="通往内心的桥－儿童心理诊所－" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">通往内心的桥－儿童心理诊所－</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/134.html" title="38师机动队" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">38师机动队</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-zy"></i>
+          			<span>综艺热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/376.html" title="哈啰！毛小孩" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">哈啰！毛小孩</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/410.html" title="蕾哈娜内衣秀2" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">蕾哈娜内衣秀2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/339.html" title="会画少年的天空" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">会画少年的天空</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/340.html" title="哎呀好身材第四季" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">哎呀好身材第四季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/364.html" title="今晚开赞吧" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">今晚开赞吧</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/357.html" title="11点热吵店" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">11点热吵店</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/429.html" title="跳过" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">跳过</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/356.html" title="疯狂的麦咭第八季" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">疯狂的麦咭第八季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/365.html" title="综艺大热门" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">综艺大热门</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/409.html" title="叛徒(美版)第一季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">叛徒(美版)第一季</span>
+		</a>
+			</div>
+		<div class="list-item">
+		<h5 class="item-title">
+	             <i class="icon-cate-dm"></i>
+          			<span>动漫热播榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/30.html" title="至尊神级系统动态漫画" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">至尊神级系统动态漫画</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/489.html" title="爹地拍档" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">爹地拍档</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/484.html" title="异世界悠闲农家" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">异世界悠闲农家</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/462.html" title="徒弟个个是大佬第二季" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">徒弟个个是大佬第二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/17.html" title="女神异闻录4" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">女神异闻录4</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/475.html" title="海贼王" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">海贼王</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/458.html" title="星河至尊" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">星河至尊</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/504.html" title="防御全开" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">防御全开</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/491.html" title="真・进化之实" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">真・进化之实</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/480.html" title="在地下城寻求邂逅是否搞错了什么第四季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">在地下城寻求邂逅是否搞错了什么第四季</span>
+		</a>
+			</div>
+	</div> 
+   
+<div class="tab-list" dataname="推荐榜">	     
+		     
+    <div class="list-item">
+		<h5 class="item-title">
+			<i class="icon-watch-history"></i>
+			<span>热播总排行榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/372.html" title="超级夜总会" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">超级夜总会</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/238.html" title="鬼娃新娘" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">鬼娃新娘</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/128.html" title="代理公司" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">代理公司</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/482.html" title="舰队Collection总有一天在那片海" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">舰队Collection总有一天在那片海</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/179.html" title="情满九道弯" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">情满九道弯</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/2.html" title="名侦探柯南国语版" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">名侦探柯南国语版</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/398.html" title="比弗利娇妻第十二季" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">比弗利娇妻第十二季</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/558.html" title="玩命快递2" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">玩命快递2</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/6.html" title="蓝色监狱" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">蓝色监狱</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/110.html" title="黑帮之境第一季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">黑帮之境第一季</span>
+		</a>
+			</div>
+	         
+	<div class="list-item">
+		<h5 class="item-title">
+			<i class="icon-play"></i>
+			<span>站长推荐榜</span>
+		</h5>
+				<a class="item" href="/index.php/vod/detail/id/539.html" title="鬼屋幽会" target="_blank">
+			<span class="one order">01</span>
+			<span class="keyword">鬼屋幽会</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/541.html" title="V字猎杀令" target="_blank">
+			<span class="two order">02</span>
+			<span class="keyword">V字猎杀令</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/543.html" title="糖果区域" target="_blank">
+			<span class="three order">03</span>
+			<span class="keyword">糖果区域</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/545.html" title="再生侠" target="_blank">
+			<span class=" order">04</span>
+			<span class="keyword">再生侠</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/521.html" title="电子云层下" target="_blank">
+			<span class=" order">05</span>
+			<span class="keyword">电子云层下</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/522.html" title="复身犯" target="_blank">
+			<span class=" order">06</span>
+			<span class="keyword">复身犯</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/523.html" title="图书馆战争" target="_blank">
+			<span class=" order">07</span>
+			<span class="keyword">图书馆战争</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/524.html" title="独立日2：卷土重来" target="_blank">
+			<span class=" order">08</span>
+			<span class="keyword">独立日2：卷土重来</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/446.html" title="分贝在出逃" target="_blank">
+			<span class=" order">09</span>
+			<span class="keyword">分贝在出逃</span>
+		</a>
+				<a class="item" href="/index.php/vod/detail/id/448.html" title="最强大脑第十季" target="_blank">
+			<span class=" order">10</span>
+			<span class="keyword">最强大脑第十季</span>
+		</a>
+			</div>
+	  
+</div>
+	
+	
+</div>
+    
+</div>
+</main>
+
+<footer id="footer" class="wrapper pd60">
+	<p class="sitemap"><img src="/template/mxone/mxstatic/picture/logo.png" height="10">
+		 		<a target="_blank" href="/index.php/label/about.html">关于</a><span class="space-line-bold"></span>
+				<a target="_blank" href="/index.php/label/banquan.html">版权</a><span class="space-line-bold"></span>
+		 		<a target="_blank" href="/index.php/label/top.html">排行榜</a><span class="space-line-bold"></span>
+				<a target="_blank" href="/index.php/map/index.html">MAP</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/index.xml">RSS</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/baidu.xml">Baidu</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/baidu.xml">Google</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/bing.xml">Bing</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/so.xml">so</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/sogou.xml">Sogou</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/sm.xml">SM</a>
+	</p>
+	<p>本站所有内容均来自互联网分享站点所提供的公开引用资源，未提供资源上传、存储服务。</p>
+	</footer>
+
+
+<div class="fixed_right_bar">
+  <div class="mx-lrmenu">  
+ <div class="ant-back-top dbicon" style="display:none;">
+	 <i class="iconfont icon-a-zhiding5"></i>	
+</div>
+  <div class="dbicon">
+<a id="numerous" href="javascript:;" style="color: #ffffff; font-weight: bold;"></a>  
+<script src="/template/mxone/mxstatic/js/font.js"></script>
+</div>
+<div class="dbicon"  id="clothes" onclick="clothesChange();">
+ 
+<i class="iconfont icon-a-yejian2"></i>
+</div>
+<div class="dbicon ly">
+<a   href="/index.php/gbook/index.html" ><i class="iconfont icon-a-pinglun" ></i></a>
+<span class="anchor-txt">留言</span>
+</div>
+</div>
+<div class="moremeum">
+	    <i class="iconfont icon-a-gengduo1"></i>
+	</div>
+</div>
+<div class="mxonefoot">
+		<a class="item" href="/">
+    	<i class="icon-home size20"></i>
+		<div class="grid-item-name" title="喵喵影院 - 最全最好的影视平台首页">首页</div>
+		</a>
+		 	
+		<a class="item" href="/index.php/vod/type/id/1.html">
+			              <i class="size20 icon-cate-dy"></i>
+               		<div class="grid-item-name">电影</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/2.html">
+			               <i class="size20 icon-cate-ds"></i>
+               		<div class="grid-item-name">连续剧</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/3.html">
+			                <i class="size20 icon-cate-zy"></i>
+                 		<div class="grid-item-name">综艺</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/4.html">
+			                 <i class="size20 icon-cate-dm"></i>
+                 		<div class="grid-item-name">动漫</div>
+		</a>
+			
+		<a class="item" href="/index.php/art/type/id/5.html">
+			               <i class="size20 iconfont icon-zixun2"></i> 
+                		<div class="grid-item-name">资讯</div>
+		</a>
+		</div>
+
+<script type="text/javascript">
+    $("#clothes").on('click',function () {
+        $(this).children(".iconfont").toggleClass("icon-rijianmoshi");
+        $(this).children(".iconfont").toggleClass("icon-a-yejian2")
+    });
+ </script>
+
+<div class="popup" id="note" style="display:none;">
+	<div class="popup-icon"><img src="/template/mxone/mxstatic/picture/backhome.svg"></div>
+	<div class="popup-header">
+		<h3 class="popup-title">公告内容</h3>
+	</div>
+	<div class="popup-main">
+		<p>欢迎使用MXoneV18魔改主题模板</p>
+<p>本次更新内容</p>
+<p>感谢你的支持,MXoneV18魔改版模</p>	</div>
+	<div class="popup-footer"><span class="popup-btn" onclick="closeclick()">我记住啦</span></div>
+</div>
+ <!-- 弹窗公告-->
+  
+<div class="popup popup-notice none">
+	<div class="popup-icon"><img src="/template/mxone/mxstatic/picture/backhome.svg"></div>
+	<div class="popup-header">
+		<h3 class="popup-title">域名列表</h3></div>
+	<div class="popup-main">
+		<p>
+			<a><strong></strong></a><br>
+		   				<a><strong>www.baidu.com</strong></a><br>
+					</p>
+	</div>
+	<div class="popup-footer">
+		<a href="/index.php/label/web.html" class="popup-btn-o">查看全部域名</a>
+	</div>
+	<div class="close-popup" id="close-popup"><i class="icon-close-o"></i></div>
+</div> <!-- 网址-->
+<!--新的-->
+<script type="text/javascript">   
+	document.onkeydown=function(){
+	    
+		var e = window.event||arguments[0];
+		
+	     	}
+  </script>
+<!--新的-->
+
+<div class="shortcuts-mobile-overlay"></div>
+<script src="/template/mxone/mxstatic/js/mxhtml.js"></script>
+ <script src="/template/mxone/mxstatic/js/mxui.js"></script>
+	 <!-- 底部广告位 -->
+ <!-- 底部-->
+ </body>
