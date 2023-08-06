@@ -12,7 +12,8 @@
     </div>
     <script>
         // 解决跨域问题
-        response.setHeader("Access-Control-Allow-Origin","*");
+        var myHeaders = new Headers(init);
+        myHeaders.set("Access-Control-Allow-Origin","*");
 
         // 监听请求
         const queryString = window.location.search;
