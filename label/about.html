@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>关于我们 - 喵喵影院 - 最全最好的影视平台</title>
+	<meta name="keywords" content="影视,音乐,视频分享,免费视频,在线视频,预告片" />
+	<meta name="description" content="提供最新最快的视频分享数据" />
+	<meta name="referrer" content="always"> 
+<meta name="referrer" content="no-referrer" /><script>var maccms={"path":"","mid":"","url":"","wapurl":"","mob_status":"0"};</script>
+<link rel="icon" href="/template/mxone/mxstatic/picture/logo.png" type="image/png" />
+<link href="/template/mxone/mxstatic/css/style.css" rel="stylesheet" type="text/css">
+<link href="/template/mxone/mxstatic/css/aliicon.css" rel="stylesheet" type="text/css">
+<link href="/template/mxone/mxstatic/css/index.css" rel="stylesheet" type="text/css">
+<link disabled="" class="theme_black" type="text/css" rel="stylesheet" href="/template/mxone/mxstatic/css/mxhtmlblack.css"><script src="/template/mxone/mxstatic/js/jquery.js"></script>
+<script type="text/javascript"  src="/template/mxone/mxstatic/js/jquery.lazyload.js"></script>
+<script src="/template/mxone/mxstatic/js/jquery.autocomplete.js"></script>
+<script src="/template/mxone/mxstatic/js/vue.min.js"></script>
+<script src="/template/mxone/mxstatic/js/index.js"></script>
+<script src="/template/mxone/mxstatic/js/jquery.cookie.js"></script>
+<script src="/template/mxone/mxstatic/js/home.js"></script>
+<script type="text/javascript"  src="/template/mxone/mxstatic/js/jquery.clipboard.js"></script>
+<script src="/template/mxone/mxstatic/js/layer.js"></script>
+<script src="/template/mxone/mxstatic/js/js_push.js"></script>
+ <script type="text/javascript" src="/template/mxone/mxstatic/js/swiper.min.js"></script>
+<script src="/template/mxone/mxstatic/js/script.js"></script>
+<script>
+	var clothes = $.cookie('clothes');
+	if (clothes) {
+		if (clothes == 'white') {
+			$('.theme_black').removeAttr('disabled');
+		} else {
+			$('.theme_black').attr('disabled', '');
+		}
+	} else {
+		$.cookie('clothes', 'black', { expires: 365, path: '/' })
+	}
+</script>
+<script>
+
+	function clothesChange(){
+		var clothes = $.cookie('clothes');
+		if (clothes == 'black') {
+			$.cookie('clothes','white', {expires: 365, path: '/'});  
+			$('.theme_black').each(function(){
+			    $(this).removeAttr('disabled');
+			});
+			
+		} else {
+			$.cookie('clothes','black', {expires: 365, path: '/'});  
+			$('.theme_black').each(function(){
+			    $(this).attr('disabled', '');
+			});
+		}
+		clothes = $.cookie('clothes');
+	}
+</script>
+
+<body class="article page">
+  <header id="header" class="wrapper" >
+	<div class="header-content  ">
+		<div class="content">
+			<div class="brand">
+				<a href="/" class="logo" title="喵喵影院 - 最全最好的影视平台"><img src="/template/mxone/mxstatic/picture/logo.png" alt="喵喵影院 - 最全最好的影视平台"></a>
+			</div>
+
+			<div class="nav-search">
+				<form action="/index.php/vod/search.html" class="search-dh">
+				    					<div class="search-box"><input class="search-input ac_wd txtKeywords" type="text" name="wd" autocomplete="off" placeholder="搜索电影、电视剧、综艺、动漫">
+						<div class="search-drop">
+							<div class="drop-content-items ac_hot none">
+								<div class="list-item list-item-title"><strong>大家都在搜这些影片</strong></div>
+								<div class="search-tag">
+																		<a href="/index.php/vod/search/wd/%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9A.html" class="hot "><i class="icon-hot"></i>变形金刚</a>
+																		<a href="/index.php/vod/search/wd/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85.html" class="hot "><i class="icon-hot"></i>火影忍者</a>
+																		<a href="/index.php/vod/search/wd/%E5%A4%8D%E4%BB%87%E8%80%85%E8%81%94%E7%9B%9F.html" class="hot "><i class="icon-hot"></i>复仇者联盟</a>
+																		<a href="/index.php/vod/search/wd/%E6%88%98%E7%8B%BC.html" class="hot "><i class="icon-hot"></i>战狼</a>
+																		<a href="/index.php/vod/search/wd/%E7%BA%A2%E6%B5%B7%E8%A1%8C%E5%8A%A8.html" class=""><i class="icon-hot"></i>红海行动</a>
+																	</div>
+							</div>
+						</div>
+					     <a href="/index.php/label/top.html" class="search-btn search-cupfox" id="search-cupfox" title="喵喵影院 - 最全最好的影视平台排行榜" ><i class="iconfont icon-paihangbang1 phb phb phb"></i></a>						<button class="search-btn search-go" type="submit"><i class="icon-search"></i></button>
+						<button class="cancel-btn" type="button">取消</button>
+					</div>
+									</form>
+			</div>
+
+			<div class="nav">
+				<ul class="nav-menu-items">
+					<li class="nav-menu-item ">
+						<a href="/" title="喵喵影院 - 最全最好的影视平台首页">
+						 <span class="nav-menu-item-name">首页</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/1.html" title="电影">
+						     
+						    <span class="nav-menu-item-name">电影</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/2.html" title="连续剧">
+						     
+						    <span class="nav-menu-item-name">连续剧</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/3.html" title="综艺">
+						     
+						    <span class="nav-menu-item-name">综艺</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/vod/type/id/4.html" title="动漫">
+						     
+						    <span class="nav-menu-item-name">动漫</span></a>
+					</li>
+										<li class="nav-menu-item  ">
+						<a href="/index.php/art/type/id/5.html" title="资讯">
+						     
+						    <span class="nav-menu-item-name">资讯</span></a>
+					</li>
+									<li class="nav-menu-item ">
+					<a href="/index.php/label/live.html" title="喵喵影院 - 最全最好的影视平台直播" >
+					<span class="nav-menu-item-name">短视频</span>
+					 </a>
+				</li>
+						
+					<li class="nav-menu-item  domain plus">
+						<a href="javascript:;" title="喵喵影院 - 最全最好的影视平台最新域名">
+						   
+						    <span class="nav-menu-item-name">网址</span><em>+</em></a>
+					</li>
+					 					 
+				</ul>
+			</div>
+				 			<div class="header-module">
+				<ul class="nav-menu-items">
+				     					<li class="nav-menu-item drop"><span class="nav-menu-icon"><i class="icon-all"></i></span>
+						<div class="drop-content sub-block">
+							<div class="drop-content-box grid-box">
+								<ul class="drop-content-items grid-items">
+									<li class="grid-item">
+										<a href="/"><i class="icon-home"></i>
+											<div class="grid-item-name" title="喵喵影院 - 最全最好的影视平台首页">首页</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/1.html" title="电影">
+																						<i class="icon-cate-dy"></i> 											<div class="grid-item-name">电影</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/2.html" title="连续剧">
+																						<i class="icon-cate-ds"></i> 											<div class="grid-item-name">连续剧</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/3.html" title="综艺">
+																						<i class="icon-cate-zy"></i> 											<div class="grid-item-name">综艺</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/vod/type/id/4.html" title="动漫">
+																						<i class="icon-cate-dm"></i> 											<div class="grid-item-name">动漫</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/art/type/id/5.html" title="资讯">
+																						<i class="iconfont icon-zixun2"></i> 											<div class="grid-item-name">资讯</div>
+										</a>
+									</li>
+																		<li class="grid-item">
+										<a href="/index.php/label/web.html"><i class="icon-domain"></i>
+											<div class="grid-item-name" title="网址">网址</div>
+										</a>
+									</li>
+																		<li class="grid-item grid-more">
+										<a class="grid-more-link" href="/index.php/vod/show/id/1.html" title="查看全部影片">
+											<div class="grid-item-name">全部影片</div>
+										</a>
+									</li>
+																	</ul>
+							</div>
+						</div>
+						<div class="shortcuts-mobile-overlay"></div>
+					</li>
+										
+					<li class="nav-menu-item nav-menu-search"><i class="icon-search"></i></li>
+					<li class="space-line-bold"></li>
+					<li class="nav-menu-item drop"><span class="nav-menu-icon"><i class="icon-watch-history"></i></span>
+						<div class="drop-content drop-history">
+							<div class="drop-content-box">
+								<ul class="drop-content-items" id="history">
+									<li class="list-item list-item-title">
+										<a href="" class="playlist historyclean"><i class="icon-clear"></i></a>
+										<strong>我的观影记录</strong></li>
+								</ul>
+							</div>
+						</div>
+						<div class="shortcuts-mobile-overlay"></div>
+					</li>
+										<li class="space-line-bold"></li>
+					
+				<li class="nav-menu-item drop wapblock">
+				    <span class="mac_user_center" title="会员中心" ><i class="iconfont icon-yonghu-fuben"></i></span>
+				    <!--a class="mac_user" href="javascript:;" title="会员中心"><i class="iconfont icon-yonghu-fuben"></i></a-->
+ 
+				    <div class="drop-content drop-user">
+						<div class="drop-content-box">
+							<ul class="drop-content-items" id="drop-user">
+								<li class="list-item list-item-title">	
+									<div class="text-content">登录后可享受</div></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>尊享极清观影体验</span></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>同步多端播放记录</span></li>
+	<li class="list-item text-alink"><i style="color:#03c8d4" class="icon-play"></i><span>热播精彩及时追</span></li>
+	<li class="list-item button-area"><button class="mac_user" href="javascript:;" >立即登录</button></li></ul></div></div>	
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script>
+		 $(".nav-menu-search").click(function () {
+             $(".nav-search").addClass("block");
+         });
+                
+	$(document).scroll(function() {
+		var H = $(document).scrollTop();
+		if(H > 20) {
+		  $(".header-content").addClass("header-bg");
+		} else {
+		  $(".header-content").removeClass("header-bg");
+		}
+		if(H > 80) {
+          $(".header-content").addClass("header-bg");
+         $(".search-dh").append($(".search-box"));
+           $(".nav-menu-search").click(function () {
+             $(".nav-search").addClass("block");
+         });
+		} else {
+         $(".header-content").removeClass("header-bg");
+
+          $(".search-main").append($(".search-box"));
+         
+		}
+	});
+</script>
+ 
+  
+<main id="main" class="wrapper">
+			<div class="content">
+				<div>
+					<h1 class="page-title">关于我们</h1>
+					<div class="box">
+						<div class="article-content">
+							<h2 id="url"><a href="#url">官方网址</a></h2>
+							<p>
+							    			<a><strong>www.baidu.cn</strong></a><br>
+						<a><strong>www.baidu.com</strong></a><br>
+			  
+							
+							收藏本站网址，不迷路！</p><b>如果您认可喵喵影院 - 最全最好的影视平台，请分享给你的好友！</b>
+							<hr>
+							<h2>喵喵影院 - 最全最好的影视平台介绍</h2>
+							<p>大片，高清正版免费在线观看！</p>
+							<h3>优势</h3>
+							<ul>
+								<li>最新<em><b>热门VIP资源同步更新</b></em>，官版推出后<em><b>5～30分钟</b></em>即可本站免费观看；</li>
+								<li>20万+国内外影片、电视剧、综艺、动漫，百度搜不到的咱这里都有！</li>
+								<li>十大线路视频源，总有一个适合你极速秒开！</li>
+								<li>强大的搜索功能，只有想不到没有搜不到！</li>
+								<li>无需安装APP即可享受堪比APP客户端的观影体验。</li>
+								<li>全面支持所有设备、主流十余种分辨率比例。</li>
+								<li>支持系统：网页、iOS、安卓、iPad、Mac、Windows..</li>
+								<li>
+							      <a href="/index.php/label/help.html" target="_blank">支持投屏到电视观看</a>
+								</li>
+							</ul>
+							<h3>特色</h3>
+							<ul>
+								<li>超大影片海报，营造沉浸式观影体验，极具视觉冲击力。</li>
+								<li>极致的网站设计，前端体验，获得众多同行的高度赞扬。</li>
+								<li>提升观影体验、降低网站层级、无需影片介绍等中间页面再次跳转。</li>
+								<li>像QQ好友一样的片源、选集切换，更易上手操作。</li>
+							</ul>
+							<hr>
+							<h2>APP客户端级的移动端体验</h2>
+							<p class="article-imglist"><img src="https://img03.sogoucdn.com/app/a/100520146/4B445D77CEC44C8E3E1AD1896093F17E" width="460">
+							<img src="https://img03.sogoucdn.com/app/a/100520146/8FC83D48C322023D0545D898E1A0E22A" width="460">
+							<img src="https://img01.sogoucdn.com/app/a/100520146/902CDD14D760A4625F22A536A0E39D69" width="460"></p>
+							<ul>
+								<li>极致的网站设计、前端交互体验，获得众多同行的高度赞扬！</li>
+								<li>超大影片海报，极具视觉冲击力！</li>
+								<li>更少的跳转路径，尽量让每一次点击都能直接观影，减少影片介绍等中间页面！</li>
+								<li>使用电脑版或安卓版Chrome访问
+									<a href="#url">本站域名</a>&nbsp;
+									<a href="/" target="_blank"></a> &nbsp; 还有"安装应用"的<b>彩蛋</b>等你体验。</li>
+							</ul>
+							<hr>
+							<h2>沉浸式观影体验</h2>
+
+							<ul>
+								<li>最新<em><b>热门VIP资源同步更新</b></em>，官版推出后，<em><b>5～30分钟</b></em>即可本站免费观看；</li>
+								<li>持续添加优质线路、视频源供您切换，画质清晰、播放流畅；</li>
+								<li>像QQ好友列表一样的选集模式，更加简单、易上手；<br>
+									<li>视频主要分为
+										<a href="javascript:;" target="_blank"><b>电影</b></a>、
+										<a href="javascript:;" target="_blank"><b>电视剧</b></a>、
+										<a href="javascript:;" target="_blank"><b>动漫</b></a>、
+										<a href="javascript:;" target="_blank"><b>综艺</b></a>等..</li>
+									<li>影视分类精细完善、内容筛选功能强大、搜索功能简约又不失重点内容的呈现！</li>
+							</ul>
+							<h2><a href="javascript:;" target="_blank">如何投屏&#62;&#62;</a></h2>
+							<ul>
+								<li>安卓手机使用<b><a href="javascript:;" target="_blank">夸克浏览器</a>、<a href="javascript:;" target="_blank">QQ浏览器</a>、<a href="javascript:;" target="_blank">UC浏览器</a></b>打开电影先生，均可<em><a href="javascript:;" target="_blank"><b>投屏</b></a></em>到电视播放！</li>
+								<li>苹果手机使用<b><a href="javascript:;" target="_blank">iPhone自带的Safari</a>、<a href="javascript:;" target="_blank">QQ浏览器</a>、<a href="javascript:;" target="_blank">夸克浏览器</a></b>打开电影先生，均可<em><a href="javascript:;" target="_blank"><b>投屏</b></a></em>到电视播放！</li>
+								<li>温馨提示：开启手机勿扰模式，效果更佳：）</li>
+								<li>
+									<a href="/index.php/label/help.html" target="_blank">查看详细教程&#62;&#62;</a>
+								</li>
+							</ul>
+							<hr>
+								<ul>
+									<li>
+										<a href="/index.php/label/about.html" target="_blank">关于我们</a>
+									</li>
+									<li>
+										<a href="/index.php/label/help.html" target="_blank">如何投屏到电视?</a>
+									</li>
+									<li>
+										<a href="/index.php/label/banquan.html" target="_blank">版权声明</a>
+									</li>
+								</ul>
+								<hr>
+						</div>
+						<div class="article-bg"></div>
+						<div class="article-bg01"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+<footer id="footer" class="wrapper pd60">
+	<p class="sitemap"><img src="/template/mxone/mxstatic/picture/logo.png" height="10">
+		 		<a target="_blank" href="/index.php/label/about.html">关于</a><span class="space-line-bold"></span>
+				<a target="_blank" href="/index.php/label/banquan.html">版权</a><span class="space-line-bold"></span>
+		 		<a target="_blank" href="/index.php/label/top.html">排行榜</a><span class="space-line-bold"></span>
+				<a target="_blank" href="/index.php/map/index.html">MAP</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/index.xml">RSS</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/baidu.xml">Baidu</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/baidu.xml">Google</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/bing.xml">Bing</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/so.xml">so</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/sogou.xml">Sogou</a><span class="space-line-bold"></span>
+		<a target="_blank" href="/index.php/rss/sm.xml">SM</a>
+	</p>
+	<p>本站所有内容均来自互联网分享站点所提供的公开引用资源，未提供资源上传、存储服务。</p>
+	</footer>
+
+
+<div class="fixed_right_bar">
+  <div class="mx-lrmenu">  
+ <div class="ant-back-top dbicon" style="display:none;">
+	 <i class="iconfont icon-a-zhiding5"></i>	
+</div>
+  <div class="dbicon">
+<a id="numerous" href="javascript:;" style="color: #ffffff; font-weight: bold;"></a>  
+<script src="/template/mxone/mxstatic/js/font.js"></script>
+</div>
+<div class="dbicon"  id="clothes" onclick="clothesChange();">
+ 
+<i class="iconfont icon-a-yejian2"></i>
+</div>
+<div class="dbicon ly">
+<a   href="/index.php/gbook/index.html" ><i class="iconfont icon-a-pinglun" ></i></a>
+<span class="anchor-txt">留言</span>
+</div>
+</div>
+<div class="moremeum">
+	    <i class="iconfont icon-a-gengduo1"></i>
+	</div>
+</div>
+<div class="mxonefoot">
+		<a class="item" href="/">
+    	<i class="icon-home size20"></i>
+		<div class="grid-item-name" title="喵喵影院 - 最全最好的影视平台首页">首页</div>
+		</a>
+		 	
+		<a class="item" href="/index.php/vod/type/id/1.html">
+			              <i class="size20 icon-cate-dy"></i>
+               		<div class="grid-item-name">电影</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/2.html">
+			               <i class="size20 icon-cate-ds"></i>
+               		<div class="grid-item-name">连续剧</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/3.html">
+			                <i class="size20 icon-cate-zy"></i>
+                 		<div class="grid-item-name">综艺</div>
+		</a>
+			
+		<a class="item" href="/index.php/vod/type/id/4.html">
+			                 <i class="size20 icon-cate-dm"></i>
+                 		<div class="grid-item-name">动漫</div>
+		</a>
+			
+		<a class="item" href="/index.php/art/type/id/5.html">
+			               <i class="size20 iconfont icon-zixun2"></i> 
+                		<div class="grid-item-name">资讯</div>
+		</a>
+		</div>
+
+<script type="text/javascript">
+    $("#clothes").on('click',function () {
+        $(this).children(".iconfont").toggleClass("icon-rijianmoshi");
+        $(this).children(".iconfont").toggleClass("icon-a-yejian2")
+    });
+ </script>
+
+<div class="popup" id="note" style="display:none;">
+	<div class="popup-icon"><img src="/template/mxone/mxstatic/picture/backhome.svg"></div>
+	<div class="popup-header">
+		<h3 class="popup-title">公告内容</h3>
+	</div>
+	<div class="popup-main">
+		<p>欢迎使用MXoneV18魔改主题模板</p>
+<p>本次更新内容</p>
+<p>感谢你的支持,MXoneV18魔改版模</p>	</div>
+	<div class="popup-footer"><span class="popup-btn" onclick="closeclick()">我记住啦</span></div>
+</div>
+ <!-- 弹窗公告-->
+  
+<div class="popup popup-notice none">
+	<div class="popup-icon"><img src="/template/mxone/mxstatic/picture/backhome.svg"></div>
+	<div class="popup-header">
+		<h3 class="popup-title">域名列表</h3></div>
+	<div class="popup-main">
+		<p>
+			<a><strong></strong></a><br>
+		   				<a><strong>www.baidu.com</strong></a><br>
+					</p>
+	</div>
+	<div class="popup-footer">
+		<a href="/index.php/label/web.html" class="popup-btn-o">查看全部域名</a>
+	</div>
+	<div class="close-popup" id="close-popup"><i class="icon-close-o"></i></div>
+</div> <!-- 网址-->
+<!--新的-->
+<script type="text/javascript">   
+	document.onkeydown=function(){
+	    
+		var e = window.event||arguments[0];
+		
+	     	}
+  </script>
+<!--新的-->
+
+<div class="shortcuts-mobile-overlay"></div>
+<script src="/template/mxone/mxstatic/js/mxhtml.js"></script>
+ <script src="/template/mxone/mxstatic/js/mxui.js"></script>
+	 <!-- 底部广告位 -->
+ <!-- 底部-->
+ </body>
