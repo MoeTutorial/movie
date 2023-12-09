@@ -1,18 +1,6 @@
 {
     "spider": "./Gaotianliuyun.jar;md5;3c3cd629e6463d91c11585d727722580",
-    "lives": [
-        {
-            "group":"redirect",
-            "channels":[
-                {
-                    "name":"redirect",
-                    "urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9tb3ZpZS5zbi1tLnh5ei9GaXNoYm9hcmRUVi9saXZlVFYudHh0"],
-                    "epg":"https://epg.112114.xyz/?ch={name}&date={date}",
-                    "logo":"https://epg.112114.xyz/logo/{name}.png"
-                }
-            ]
-        }
-    ],
+    "lives": [{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9tb3ZpZS5zbi1tLnh5ei9GaXNoYm9hcmRUVi9saXZlVFYudHh0"]}]}],
     "sites":[
         {"key": "南瓜","name": "南瓜┃App","type": 3,"api": "csp_NanGua","searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key": "蝴蝶","name": "蝴蝶┃App","type": 3,"api": "csp_Hudie","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b"},
