@@ -1,0 +1,104 @@
+{
+    "message": [
+        {
+            "id": 1,
+            "name": "短剧1",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+            "link": "/pages/player/detail?resource=duanju1",
+            "recommend": "home",
+            "type": "skit"
+        },
+        {
+            "id": 2,
+            "name": "短剧2",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-2.jpg",
+            "link": "/pages/player/index",
+            "recommend": "home",
+            "type": "skit"
+        },
+        {
+            "id": 3,
+            "name": "短剧3",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-3.jpg",
+            "link": "/pages/player/index",
+            "recommend": "home",
+            "type": "skit"
+        },
+        {
+            "id": 4,
+            "name": "短剧4",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-4.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "skit"
+        },
+        {
+            "id": 5,
+            "name": "短剧5",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-5.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "skit"
+        },
+        {
+            "id": 6,
+            "name": "短剧6",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "skit"
+        },
+        {
+            "id": 7,
+            "name": "动画1",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+            "link": "/pages/player/index",
+            "recommend": "home",
+            "type": "acg"
+        },
+        {
+            "id": 8,
+            "name": "动画2",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-2.jpg",
+            "link": "/pages/player/index",
+            "recommend": "home",
+            "type": "acg"
+        },
+        {
+            "id": 9,
+            "name": "动画3",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-3.jpg",
+            "link": "/pages/player/index",
+            "recommend": "home",
+            "type": "acg"
+        },
+        {
+            "id": 10,
+            "name": "动画4",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-4.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "acg"
+        },
+        {
+            "id": 11,
+            "name": "动画5",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-5.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "acg"
+        },
+        {
+            "id": 12,
+            "name": "动画6",
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+            "link": "/pages/player/index",
+            "recommend": "none",
+            "type": "acg"
+        }
+    ],
+    "meta": {
+        "msg": "获取成功",
+        "status": 200
+    }
+}

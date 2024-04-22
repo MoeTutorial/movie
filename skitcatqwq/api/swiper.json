@@ -1,0 +1,38 @@
+{
+    "message": [
+        {
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+            "id": "",
+            "link": "https://www.baidu.com",
+            "type": "url"
+        },
+        {
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-2.jpg",
+            "id": "wx6eb33e5f7ba7699b",
+            "link": "/pages/index/index",
+            "type": "applet"
+        },
+        {
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-3.jpg",
+            "id": "",
+            "link": "/pages/player/index",
+            "type": "page"
+        },
+        {
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-4.jpg",
+            "id": "",
+            "link": "/pages/player/index",
+            "type": "applet"
+        },
+        {
+            "pic": "https://unpkg.com/outeres/demo/carousel/720x360-5.jpg",
+            "id": "",
+            "link": "/pages/player/index",
+            "type": "url"
+        }
+    ],
+    "meta": {
+        "msg": "获取成功",
+        "status": 200
+    }
+}

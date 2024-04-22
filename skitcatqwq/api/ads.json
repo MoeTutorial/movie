@@ -1,0 +1,14 @@
+{
+    "interstitials": {
+        "enabled": "false",
+        "id": "插屏广告位id"
+    },
+    "rewardedVideo": {
+        "enabled": "false",
+        "id": "激励视频广告位id"
+    },
+    "meta": {
+        "msg": "获取成功",
+        "status": 200
+    }
+}

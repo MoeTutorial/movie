@@ -1,0 +1,32 @@
+{
+    "message":[
+        {
+            "title": "公告：公告1显示信息",
+            "id": "",
+            "url": "",
+            "type": "none"
+        },
+        {
+            "title": "公告：公告2显示信息",
+            "id": "",
+            "url": "111",
+            "type": "url"
+        },
+        {
+            "title": "公告：公告3显示信息",
+            "id": "",
+            "url": "/pages/player/index",
+            "type": "page"
+        },
+        {
+            "title": "公告：公告4显示信息",
+            "id": "111",
+            "url": "",
+            "type": "applet"
+        }
+    ],
+    "meta": {
+        "msg": "获取成功",
+        "status": 200
+    }
+}

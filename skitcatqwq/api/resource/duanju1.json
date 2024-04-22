@@ -1,0 +1,35 @@
+{
+    "name":"短剧1",
+    "introduce":"短剧介绍",
+    "pic": "https://unpkg.com/outeres/demo/carousel/720x360-1.jpg",
+    "selectionsNum": "100集全",
+    "author": "不存在的人",
+    "playNow": "/pages/player/index?url=http://127.0.0.1/MoePlayer/%e7%9f%ad%e5%89%a7/%e5%a5%b3%e4%ba%ba%e7%9a%84%e5%a4%8d%e4%bb%87%e3%80%90%e6%9b%b4%e5%a4%9a%e7%b2%be%e5%93%81%e8%af%be%e7%a8%8b%e5%8a%a0%e5%be%ae%e4%bf%a1%ef%bc%9ayzys0130%e3%80%91.mp4",
+    "selections": [
+        {
+            "name": "第一集",
+            "link": "/pages/player/index?url=1.mp4"
+        },
+        {
+            "name": "第二集",
+            "link": "/pages/player/index?url=http://127.0.0.1/MoePlayer/%e7%9f%ad%e5%89%a7/%e5%a5%b3%e4%ba%ba%e7%9a%84%e5%a4%8d%e4%bb%87%e3%80%90%e6%9b%b4%e5%a4%9a%e7%b2%be%e5%93%81%e8%af%be%e7%a8%8b%e5%8a%a0%e5%be%ae%e4%bf%a1%ef%bc%9ayzys0130%e3%80%91.mp4"
+        },
+        {
+            "name": "第三集",
+            "link": "/pages/player/index?url=http://127.0.0.1/MoePlayer/%e7%9f%ad%e5%89%a7/%e5%a5%b3%e4%ba%ba%e7%9a%84%e5%a4%8d%e4%bb%87%e3%80%90%e6%9b%b4%e5%a4%9a%e7%b2%be%e5%93%81%e8%af%be%e7%a8%8b%e5%8a%a0%e5%be%ae%e4%bf%a1%ef%bc%9ayzys0130%e3%80%91.mp4"
+        },
+        {
+            "name": "第四集",
+            "link": "/pages/player/index?url=http://127.0.0.1/MoePlayer/%e7%9f%ad%e5%89%a7/%e5%a5%b3%e4%ba%ba%e7%9a%84%e5%a4%8d%e4%bb%87%e3%80%90%e6%9b%b4%e5%a4%9a%e7%b2%be%e5%93%81%e8%af%be%e7%a8%8b%e5%8a%a0%e5%be%ae%e4%bf%a1%ef%bc%9ayzys0130%e3%80%91.mp4"
+        },
+        {
+            "name": "第五集",
+            "link": "/pages/player/index?url=http://127.0.0.1/MoePlayer/%e7%9f%ad%e5%89%a7/%e5%a5%b3%e4%ba%ba%e7%9a%84%e5%a4%8d%e4%bb%87%e3%80%90%e6%9b%b4%e5%a4%9a%e7%b2%be%e5%93%81%e8%af%be%e7%a8%8b%e5%8a%a0%e5%be%ae%e4%bf%a1%ef%bc%9ayzys0130%e3%80%91.mp4"
+        }
+    ],
+    "type": "skit",
+    "meta": {
+        "msg": "获取成功",
+        "status": 200
+    }
+}
